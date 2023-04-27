@@ -14,6 +14,8 @@
 		87AA17D229FACBB900587F0A /* MatchedGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA17D129FACBB900587F0A /* MatchedGeometryTests.swift */; };
 		87AA17DC29FACBB900587F0A /* MatchedGeometryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA17DB29FACBB900587F0A /* MatchedGeometryUITests.swift */; };
 		87AA17DE29FACBB900587F0A /* MatchedGeometryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA17DD29FACBB900587F0A /* MatchedGeometryUITestsLaunchTests.swift */; };
+		87AA17EB29FACBD700587F0A /* cyberpunk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 87AA17EA29FACBD700587F0A /* cyberpunk.mp4 */; };
+		87AA17ED29FACC0300587F0A /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AA17EC29FACC0300587F0A /* VideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		87AA17D729FACBB900587F0A /* MatchedGeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedGeometryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AA17DB29FACBB900587F0A /* MatchedGeometryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryUITests.swift; sourceTree = "<group>"; };
 		87AA17DD29FACBB900587F0A /* MatchedGeometryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87AA17EA29FACBD700587F0A /* cyberpunk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cyberpunk.mp4; sourceTree = "<group>"; };
+		87AA17EC29FACC0300587F0A /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				87AA17C029FACBB800587F0A /* MatchedGeometryApp.swift */,
 				87AA17C229FACBB800587F0A /* ContentView.swift */,
+				87AA17EC29FACC0300587F0A /* VideoView.swift */,
+				87AA17EA29FACBD700587F0A /* cyberpunk.mp4 */,
 				87AA17C429FACBB900587F0A /* Assets.xcassets */,
 				87AA17C629FACBB900587F0A /* Preview Content */,
 			);
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AA17EB29FACBD700587F0A /* cyberpunk.mp4 in Resources */,
 				87AA17C829FACBB900587F0A /* Preview Assets.xcassets in Resources */,
 				87AA17C529FACBB900587F0A /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AA17ED29FACC0300587F0A /* VideoView.swift in Sources */,
 				87AA17C329FACBB800587F0A /* ContentView.swift in Sources */,
 				87AA17C129FACBB800587F0A /* MatchedGeometryApp.swift in Sources */,
 			);
